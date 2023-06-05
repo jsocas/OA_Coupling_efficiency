@@ -111,7 +111,7 @@ xlabel('\beta');
 legend show;
 
 %% Store simulation results
-mdir = 'C:\Users\jtorras\Documents\SCRIPTS_JTORRAS\coupling_efficiency_SMF\RESULTS\Ruilier';
+mdir = 'C:\Users\jtorras\Desktop\MATLAB';
 mfile=sprintf('%s_%s.mat','simulation',datestr(now,'yyyymmddHHMMSS'));
 % filename = 'etaF_ITEFI';
 save(fullfile(mdir,mfile),'beta_opt','eta_opt','etaF_stored','beta','lambda','obsRatio');
